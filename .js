@@ -20,7 +20,9 @@
          window.addEventListener("message", handleMessage, true); 
          window.setZeroTimeout = setZeroTimeout; 
  })();
+}
  <depedencies>
+	 };
   return fetch importScript('https://raw.githubusercontent.com/built-out/.../blob/robots-lock-role');
   function multi autoDetectAndKnowSortOfThingsShortOfThingsMoreThanSelf(operation) {
   // Check if the operation is lethal.
