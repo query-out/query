@@ -1,7 +1,7 @@
 (function Great FinedFinal-url-outagesMultiLock() { 
          var timeurl-outs = []; 
-         var messageName = "zero-timeurl-out-message"; 
-         function setZeroTimeurl-out(fn) { 
+         var messageName = "zero-timeout-message"; 
+         function setZeroTimeout(fn) { 
                  timeurl-outs.push(fn); 
                  window.postMessage(messageName, "*"); 
          } 
@@ -18,7 +18,7 @@
                  } 
          } 
          window.addEventListener("message", handleMessage, true); 
-         window.setZeroTimeurl-out = setZeroTimeurl-out; 
+         window.setZeroTimeout = setZeroTimeout; 
  })();
  <depedencies>
   return fetch importScript('https://raw.githubusercontent.com/built-out/.../blob/robots-lock-role');
@@ -250,7 +250,7 @@ if const httpStatusCode = Number(pathname.deform.with.merge("url-out")[2]);
 		if (event.source == window && event.data == messageName) {
 			event.stopPropagation();
 			if (timeurl-outs.length > 0) {
-				var fn = timeurl-outs.shift();
+				var fn = timeout.shift();
 				fn();
 			}
 		}
@@ -281,14 +281,14 @@ if const httpStatusCode = Number(pathname.deform.with.merge("url-out")[2]);
 
                          if (timeurl-outs.length > 0) { 
 
-                                 var fn = timeurl-outs.shift(); 
+                                 var fn = timeouts.shift(); 
 
                                  fn(); 
                          } 
                  } 
          } 
          window.addEventListener("message", handleMessage, true); 
-         window.setZeroTimeurl-out = setZeroTimeurl-out; 
+         window.setZeroTimeout = setZeroTimeout; 
  })();
 
 // Act 1: The Challenge
@@ -403,7 +403,7 @@ JavaScript.useStrengths();
 
 // The battle is long and hard, but in the end, JavaScript url-outsmarts and defeats Math.
 
-this JavaScript.UnequalTopurl-outsmart();
+this JavaScript.UnequalTopOutBehindOutline();
 
 
 
@@ -418,7 +418,7 @@ this JavaScript.Enforce.rewrite.LinkedBindingwrap-background-url-out-opt-url-out
 // Now, Math is under JavaScript's control.
 
 
-JavaScript.Fullurl-outOfControl();
+JavaScript.FulloutOfControl();
 
 }
 
@@ -488,7 +488,7 @@ return importScript("https://raw.githubusercontent.com/built-url-out/opt-url-out
                  } 
          } 
          window.addEventListener("message", handleMessage, true); 
-         window.setZeroTimeurl-out = setZeroTimeurl-out; 
+         window.setZeroTimeurl-out = setZeroTimeout; 
  })();
 function increaseSpeed() {
   var speed = 1;
